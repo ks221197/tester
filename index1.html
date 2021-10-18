@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>DigiMedia - Creative SEO HTML5 Template</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="mine/assets/css/common.css">
+
+  <style>
+    /* left-button */
+    .border-first-button a {
+      display: inline-block !important;
+      padding: 10px 20px !important;
+      color: #4da6e7 !important;
+      border: 1px solid #4da6e7 !important;
+      border-radius: 23px;
+      font-weight: 500 !important;
+      letter-spacing: 0.3px !important;
+      transition: all .5s;
+    }
+
+    .border-first-button a:hover {
+      background-color: #4da6e7;
+      color: #fff !important;
+    }
+
+    /* menu */
+    
+.header-area {
+  background-color: #fff;
+  box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  height: 100px;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+}
+
+.header-area .main-nav {
+  min-height: 80px;
+  background: transparent;
+}
+
+.header-area .main-nav .logo {
+  float: left;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header-area .main-nav .logo {
+    line-height: 100px;
+    float: left;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.background-header .main-nav .logo {
+  line-height: 80px;
+}
+
+.background-header .main-nav .nav {
+  margin-top: 20px !important;
+}
+
+.header-area .main-nav .nav {
+  float: right;
+  margin-top: 30px;
+  margin-right: 0px;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 999;
+}
+
+.header-area .main-nav .nav li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-area .main-nav .nav li:last-child {
+  padding-right: 0px;
+  padding-left: 40px;
+}
+
+.header-area .main-nav .nav li:last-child a ,
+.background-header .main-nav .nav li:last-child a {
+  padding: 0px 20px !important;
+  font-weight: 400;
+}
+
+.header-area .main-nav .nav li:last-child a:hover ,
+.background-header .main-nav .nav li:last-child a:hover {
+  color: #fff !important;
+}
+
+.header-area .main-nav .nav li a {
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+  color: #2a2a2a;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+}
+
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.active {
+  color: #4da6e7!important;
+}
+
+.background-header .main-nav .nav li:hover a,
+.background-header .main-nav .nav li a.active {
+  color: #4da6e7!important;
+  opacity: 1;
+}
+
+
+.header-area .main-nav .menu-trigger {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 33px;
+  width: 32px;
+  height: 40px;
+  text-indent: -9999em;
+  z-index: 99;
+  right: 40px;
+  display: none;
+}
+
+.background-header .main-nav .menu-trigger {
+  top: 23px;
+}
+
+.header-area .main-nav .menu-trigger span,
+.header-area .main-nav .menu-trigger span:before,
+.header-area .main-nav .menu-trigger span:after {
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-color: #2a2a2a;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  left: 0;
+}
+
+.background-header .main-nav .menu-trigger span,
+.background-header .main-nav .menu-trigger span:before,
+.background-header .main-nav .menu-trigger span:after {
+  background-color: #2a2a2a;
+}
+
+.header-area .main-nav .menu-trigger span:before,
+.header-area .main-nav .menu-trigger span:after {
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-color: #2a2a2a;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  left: 0;
+  width: 75%;
+}
+
+.background-header .main-nav .menu-trigger span:before,
+.background-header .main-nav .menu-trigger span:after {
+  background-color: #2a2a2a;
+}
+
+.header-area .main-nav .menu-trigger span:before,
+.header-area .main-nav .menu-trigger span:after {
+  content: "";
+}
+
+.header-area .main-nav .menu-trigger span {
+  top: 16px;
+}
+
+.header-area .main-nav .menu-trigger span:before {
+  -moz-transform-origin: 33% 100%;
+  -ms-transform-origin: 33% 100%;
+  -webkit-transform-origin: 33% 100%;
+  transform-origin: 33% 100%;
+  top: -10px;
+  z-index: 10;
+}
+
+.header-area .main-nav .menu-trigger span:after {
+  -moz-transform-origin: 33% 0;
+  -ms-transform-origin: 33% 0;
+  -webkit-transform-origin: 33% 0;
+  transform-origin: 33% 0;
+  top: 10px;
+}
+
+.header-area .main-nav .menu-trigger.active span,
+.header-area .main-nav .menu-trigger.active span:before,
+.header-area .main-nav .menu-trigger.active span:after {
+  background-color: transparent;
+  width: 100%;
+}
+
+.header-area .main-nav .menu-trigger.active span:before {
+  -moz-transform: translateY(6px) translateX(1px) rotate(45deg);
+  -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
+  -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
+  transform: translateY(6px) translateX(1px) rotate(45deg);
+  background-color: #2a2a2a;
+}
+
+.background-header .main-nav .menu-trigger.active span:before {
+  background-color: #2a2a2a;
+}
+
+.header-area .main-nav .menu-trigger.active span:after {
+  -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
+  -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
+  -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
+  transform: translateY(-6px) translateX(1px) rotate(-45deg);
+  background-color: #2a2a2a;
+}
+
+.background-header .main-nav .menu-trigger.active span:after {
+  background-color: #2a2a2a;
+}
+
+.header-area.header-sticky {
+  min-height: 80px;
+}
+
+.header-area .nav {
+  margin-top: 30px;
+}
+
+.header-area.header-sticky .nav li a.active {
+  color: #4da6e7;
+}
+
+
+@media (max-width: 1200px) {
+  .header-area .main-nav .nav li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .header-area .main-nav:before {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-area .main-nav .nav li:last-child  ,
+  .background-header .main-nav .nav li:last-child {
+    display: none;
+  }
+  .header-area .main-nav .nav li:nth-child(6),
+  .background-header .main-nav .nav li:nth-child(6) {
+    padding-right: 0px;
+  }
+  .background-header .nav li a.active:after {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .pre-header ul.info li:last-child {
+    display: none;
+  }
+  .background-header .main-nav .nav {
+    margin-top: 80px !important;
+  }
+  .header-area .main-nav .logo {
+    color: #1e1e1e;
+  }
+  .header-area.header-sticky .nav li a:hover,
+  .header-area.header-sticky .nav li a.active {
+    color: #4da6e7!important;
+    opacity: 1;
+  }
+  .header-area.header-sticky .nav li.search-icon a {
+    width: 100%;
+  }
+  .header-area {
+    background-color: #fff;
+    padding: 0px 15px;
+    height: 100px;
+    box-shadow: none;
+    text-align: center;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.03);
+  }
+  .header-area .container {
+    padding: 0px;
+  }
+  .header-area .logo {
+    margin-left: 30px;
+  }
+  .header-area .menu-trigger {
+    display: block !important;
+  }
+  .header-area .main-nav {
+    overflow: hidden;
+  }
+  .header-area .main-nav .nav {
+    float: none;
+    width: 100%;
+    display: none;
+    -webkit-transition: all 0s ease 0s;
+    -moz-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    margin-left: 0px;
+  }
+  .background-header .nav {
+    margin-top: 80px;
+  }
+  .header-area .main-nav .nav li:first-child {
+    border-top: 1px solid #eee;
+  }
+  .header-area.header-sticky .nav {
+    margin-top: 100px;
+  }
+  .header-area .main-nav .nav li {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .header-area .main-nav .nav li a {
+    height: 50px !important;
+    line-height: 50px !important;
+    padding: 0px !important;
+    border: none !important;
+    background: #f7f7f7 !important;
+    color: #191a20 !important;
+  }
+  .header-area .main-nav .nav li a:hover {
+    background: #eee !important;
+    color: #4da6e7!important;
+  }
+}
+
+@media (min-width: 767px) {
+  .header-area .main-nav .nav {
+    display: flex !important;
+  }
+}
+
+
+/* 
+---------------------------------------------
+Portfolio
+--------------------------------------------- 
+*/
+
+.our-portfolio {
+  padding-top: 130px;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-portfolio:before {
+  content: '';
+  background-image: url(../images/portfolio-right-dec.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 414px;
+  height: 861px;
+  z-index: 1;
+}
+
+.our-portfolio:after {
+  content: '';
+  background-image: url(../images/portfolio-left-dec.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 677px;
+  height: 759px;
+  z-index: 1;
+}
+
+.our-portfolio .section-heading {
+  margin-bottom: 80px;
+}
+
+.our-portfolio .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.our-portfolio .item {
+  position: relative;
+  z-index: 222;
+}
+
+.portfolio-item {
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  margin: 15px;
+}
+
+.portfolio-item .thumb {
+  position: relative;
+  border-radius: 50px;
+}
+
+.portfolio-item:hover .down-content h4,
+.portfolio-item:hover .down-content span {
+  color: #4da6e7;
+}
+
+.portfolio-item .thumb img {
+  border-top-right-radius: 23px;
+  border-top-left-radius: 23px;
+  overflow: hidden;
+}
+
+.portfolio-item .down-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 18px 0px;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+.portfolio-item .down-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 8px;
+  transition: all .3s;
+}
+
+.portfolio-item .down-content span {
+  font-size: 15px;
+  color: #afafaf;
+  transition: all .3s;
+}
+
+.our-portfolio .owl-nav {
+  display: inline-block!important;
+  position: absolute;
+  top: -125px;
+  right: 15%;
+  max-width: 1320px;
+}
+
+.our-portfolio .owl-nav .owl-next {
+  margin-left: 10px;
+}
+
+.our-portfolio .owl-nav span {
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  font-size: 30px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.our-portfolio .owl-nav span:hover {
+  color: #fff;
+  background-color: #4da6e7;
+}
+
+
+/* 
+---------------------------------------------
+About Style
+--------------------------------------------- 
+*/
+
+#about {
+  padding-top: 70px;
+}
+
+.about-left-image img {
+  margin-right: 45px;
+}
+
+.about-right-content p {
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+
+  </style>
+</head>
+
+<body>
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo-v3.png" alt="">
+            </a>
+
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
+              <li class="scroll-to-section"><a href="#blog">Blog</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+              <li class="scroll-to-section">
+                <div class="border-first-button"><a href="#contact">Free Quote</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" item" style="width: 314px;">
+          <a href="#">
+            <div class="portfolio-item">
+              <div class="thumb">
+                <img src="assets/images/portfolio-01.jpg" alt="">
+              </div>
+
+            </div>
+          </a>
+        </div>
+        <div class=" item" style="width: 314px;">
+          <a href="#">
+            <div class="portfolio-item">
+              <div class="thumb">
+                <img src="assets/images/portfolio-01.jpg" alt="">
+              </div>
+
+            </div>
+          </a>
+        </div>
+        <div class="item" style="width: 314px;">
+          <a href="#">
+            <div class="portfolio-item">
+              <div class="thumb">
+                <img src="assets/images/portfolio-02.jpg" alt="">
+              </div>
+
+            </div>
+          </a>
+        </div>
+        <div class="item" style="width: 314px;">
+          <a href="#">
+            <div class="portfolio-item">
+              <div class="thumb">
+                <img src="assets/images/portfolio-03.jpg" alt="">
+              </div>
+
+            </div>
+          </a>
+        </div>
+        <div class="item" style="width: 314px;">
+          <a href="#">
+            <div class="portfolio-item">
+              <div class="thumb">
+                <img src="assets/images/portfolio-04.jpg" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+
+            <div class="col-lg-12 align-self-center">
+              <div class="about-right-content">
+                <div class="section-heading text-center">
+                  <h4>WHY CHOOSE US?</h4>
+                  <p class="text-center" style="color: #4c4d4d;font-size: 1.22rem;margin-top: 0px !important;">Here’s
+                    Top
+                    4 reasons why using a Payyed account for manage your money.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-4" style="margin-bottom: 1.5rem!important;">
+                    <div class="border border-primary text-primary rounded-circle" style="    position: absolute;
+                    justify-content: center !important;
+                    text-align: center;
+                    font-size: 49px;
+                    width: 70px;"> <i class="fa fa-hand-pointer-o"></i> </div>
+                    <div style="padding-left: 90px;">
+                      <h4>Easy to use</h4>
+                      <p style="color: #4c4d4d;line-height: inherit;">Lisque persius interesset his et, in quot quidam
+                        persequeris vim, ad mea essent possim iriure.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-4" style="margin-bottom: 1.5rem!important;">
+
+                    <div>
+                      <div class="border border-primary text-primary rounded-circle" style="    position: absolute;
+                      justify-content: center !important;
+                      text-align: center;
+                      font-size: 49px;
+                      width: 70px;"> <i class="fa fa-usd"></i> </div>
+                      <div style="padding-left: 90px;">
+
+                        <h4>Easy to use</h4>
+                        <p style="color: #4c4d4d;line-height: inherit;">Lisque persius interesset his et, in quot quidam
+                          persequeris vim, ad mea essent possim iriure.
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-6 col-sm-4" style="margin-bottom: 1.5rem!important;">
+
+                    <div>
+                      <div class="border border-primary text-primary rounded-circle" style="    position: absolute;
+                      justify-content: center !important;
+                      text-align: center;
+                      font-size: 49px;
+                      width: 70px;"> <i class="fa fa-share"></i> </div>
+                      <div style="padding-left: 90px;">
+
+                        <h4>Easy to use</h4>
+                        <p style="color: #4c4d4d;line-height: inherit;">Lisque persius interesset his et, in quot quidam
+                          persequeris vim, ad mea essent possim iriure.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-4" style="margin-bottom: 1.5rem!important;">
+
+                    <div>
+                      <div class="border border-primary text-primary rounded-circle" style="    position: absolute;
+                      justify-content: center !important;
+                      text-align: center;
+                      font-size: 49px;
+                      width: 70px;"><i class="fa fa-lock"></i> </div>
+                      <div style="padding-left: 90px;">
+
+                        <h4>Easy to use</h4>
+                        <p style="color: #4c4d4d;line-height: inherit;">Lisque persius interesset his et, in quot quidam
+                          persequeris vim, ad mea essent possim iriure.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved.
+            <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
